@@ -17,30 +17,30 @@
 | 01.|[What is difference between document.getElementById() and document.querySelector()?](#what-is-difference-between-documentgetelementbyid-and-documentqueryselector)|
 | 02.|[What is Hoisting in JavaScript?](#what-is-hoisting-in-javascript)|
 | 03.|[What are closures?](#what-are-closures)|
-| 05.|[What is an event flow?](#what-is-an-event-flow)|
-| 06.|[What is event bubbling?](#what-is-event-bubbling)|
-| 07.|What is event capturing?|
-| 08.|What is the difference between == and === operators?|
-| 09.|What is a callback function?|
-| 10.|What is a callback hell?|
-| 11.|What is a strict mode in javascript?|
-| 12.|What is typeof operator?|
-| 13.|What is the difference between null and undefined?|
-| 14.|What is the difference between window and document?|
-| 15.|What is the difference between an attribute and a property?|
-| 16.|What is the use of preventDefault method?|
-| 17.|What is the purpose JSON stringify?|
-| 18.|How do you parse JSON string?|
-| 19.|How do you check whether a string contains a substring?|
-| 20.|What are the benefits of keeping declarations at the top?|
-| 21.|What is a RegExp object?|
-| 22.|What is an anonymous function?|
-| 23.|How do you sort elements in an array?|
-| 24.|How do you find min and max value in an array?|
-| 25.|How do you find min and max values without Math functions?|
-| 26.|Explain the difference between synchronous and asynchronous functions?|
-| 27.|What is event loop? What is the difference between call stack and task queue?|
-| 28.|What is the difference between slice and splice?|
+| 04.|[What is an event flow?](#what-is-an-event-flow)|
+| 05.|[What is event bubbling?](#what-is-event-bubbling)|
+| 06.|[What is event capturing?](#what-is-event-capturing)|
+| 07.|[What is the difference between == and === operators?](#what-is-the-difference-between--and--operators)|
+| 08.|[What is a callback function?](#what-is-a-callback-function)|
+| 09.|[What is a callback hell?](#what-is-a-callback-hell)|
+| 10.|[What is a strict mode in javascript?](#what-is-a-strict-mode-in-javascript)|
+| 11.|[What is typeof operator?](#what-is-typeof-operator)|
+| 12.|[What is the difference between null and undefined?](#what-is-the-difference-between-null-and-undefined)|
+| 13.|[What is the difference between window and document?](#what-is-the-difference-between-window-and-document)|
+| 14.|[What is the difference between an attribute and a property?](#what-is-the-difference-between-an-attribute-and-a-property)|
+| 15.|[What is the use of preventDefault method?](#what-is-the-use-of-preventdefault-method)|
+| 16.|[What is the purpose JSON stringify?](#what-is-the-purpose-json-stringify)|
+| 17.|[How do you parse JSON string?](#how-do-you-parse-json-string)|
+| 18.|[How do you check whether a string contains a substring?](#how-do-you-check-whether-a-string-contains-a-substring)|
+| 19.|[What are the benefits of keeping declarations at the top?](#what-are-the-benefits-of-keeping-declarations-at-the-top)|
+| 20.|[What is a RegExp object?](#what-is-a-regexp-object)|
+| 21.|[What is an anonymous function?](#what-is-an-anonymous-function)|
+| 22.|[How do you sort elements in an array?](#how-do-you-sort-elements-in-an-array)|
+| 23.|[How do you find min and max value in an array?](#how-do-you-find-min-and-max-value-in-an-array)|
+| 24.|[How do you find min and max values without Math functions?](#how-do-you-find-min-and-max-values-without-math-functions)|
+| 25.|[Explain the difference between synchronous and asynchronous functions?](#explain-the-difference-between-synchronous-and-asynchronous-functions)|
+| 26.|[What is event loop? What is the difference between call stack and task queue?](#what-is-event-loop-what-is-the-difference-between-call-stack-and-task-queue)|
+| 27.|[What is the difference between slice and splice?](#what-is-the-difference-between-slice-and-splice)|
 
 
 ### What is difference between document.getElementById() and document.querySelector()?
@@ -487,16 +487,16 @@ Slice| Splice |
 
 |No| Questions                                                                         |
 |-----|-----------------------------------------------------------------------------------|
-| 01.|When to use reduce(), map(), foreach() and filter() in JavaScript?|
-| 02.|How do you clone an object in JavaScript?|
-| 05.|What is a promise?|
-| 06.|What are the differences between variables created using let, var or const?|
-| 07.|Can you give an example for destructuring an object or an array?|
-| 08.|How does await and async works in es6?|
-| 09.|What are the benefits of using arrow function over es5 function?|
-| 10.|What are the differences between ES6 class and ES5 function constructors?|
+| 01.|[When to use reduce(), map(), foreach() and filter() in JavaScript?](#when-to-use-reduce-map-foreach-and-filter-in-javascript)|
+| 02.|[How do you clone an object in JavaScript?](#how-do-you-clone-an-object-in-javascript)|
+| 05.|[What is a promise?](#what-is-a-promise)|
+| 06.|[What are the differences between variables created using let, var or const?](#what-are-the-differences-between-variables-created-using-let-var-or-const)|
+| 07.|[Can you give an example for destructuring an object or an array?](#can-you-give-an-example-for-destructuring-an-object-or-an-array)|
+| 08.|[How does await and async works in es6?](#how-does-await-and-async-works-in-es6)|
+| 09.|[What are the benefits of using arrow function over es5 function?](#what-are-the-benefits-of-using-arrow-function-over-es5-function)|
+| 10.|[What are the differences between ES6 class and ES5 function constructors?](#what-are-the-differences-between-es6-class-and-es5-function-constructors)|
 | 11.|What are the benefits of using spread syntax and how is it different from rest syntax?|
-| 12.|What is the difference between for..in and for..of?|
+| 12.|[What is the difference between for..in and for..of?](#what-is-the-difference-between-forin-and-forof)|
 | 13.|What is the Temporal Dead Zone in ES6?|
 | 14.|What is modules in ES6?|
 | 15.|Can you describe the main difference between a .forEach loop and a .map() loop and why you would pick one versus the other?|
@@ -849,6 +849,51 @@ class Student extends Person {
 
 ```
 It's much more verbose to use inheritance in ES5 and the ES6 version is easier to understand and remember.
+<div align="right">
+    <b><a href="#es6-interview-questions">↥ back to top</a></b>
+</div>
+
+### What are the benefits of using spread syntax and how is it different from rest syntax?
+ES6's spread syntax is very useful when coding in a functional paradigm as we can easily create copies of arrays or objects without resorting to Object.create, slice, or a library function. This language feature is used often in Redux and Rx.js projects.
+```javascript
+function addCookiesInArray(arr) {
+  return [...arr, 'Cookies'];
+}
+
+const result = addCookiesInArray(['I', 'really', "don't", 'like']); 
+
+console.log(result); // ["I", "really", "don't", "like", "Cookies"]
+
+```
+```javascript
+const person = {
+  name: 'Todd',
+  age: 29,
+};
+
+const copyOfPerson = { ...person };
+
+console.log(copyOfPerson); // {name: "Todd", age: 29}
+
+```
+ES6's rest syntax offers a shorthand for including an arbitrary number of arguments to be passed to a function. It is like an inverse of the spread syntax, taking data and stuffing it into an array rather than unpacking an array of data, and it works in function arguments, as well as in array and object destructuring assignments.
+```javascript
+function addFiveToABunchOfNumbers(...numbers) {
+  return numbers.map(x => x + 5);
+}
+
+const result = addFiveToABunchOfNumbers(4, 5, 6, 7, 8, 9, 10); // [9, 10, 11, 12, 13, 14, 15]
+
+const [a, b, ...rest] = [1, 2, 3, 4]; // a: 1, b: 2, rest: [3, 4]
+
+const { e, f, ...others } = {
+  e: 1,
+  f: 2,
+  g: 3,
+  h: 4,
+}; // e: 1, f: 2, others: { g: 3, h: 4 }
+
+```
 <div align="right">
     <b><a href="#es6-interview-questions">↥ back to top</a></b>
 </div>
