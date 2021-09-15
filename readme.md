@@ -7,18 +7,18 @@
 <hr/>
 
 ## Table of Contents
-* JS Interview Questions
-* ES6 Interview Questions
+* [JS Interview Questions](#js-interview-questions)
+* [ES6 Interview Questions](#es6-interview-questions)
 
 ## JS Interview Questions
 
 |No| Questions                                                                         |
 |-----|-----------------------------------------------------------------------------------|
 | 01.|[What is difference between document.getElementById() and document.querySelector()?](#what-is-difference-between-documentgetelementbyid-and-documentqueryselector)|
-| 02.|What is Hoisting in JavaScript?|
-| 03.|What are closures?|
-| 05.|What is an event flow?|
-| 06.|What is event bubbling?|
+| 02.|[What is Hoisting in JavaScript?](#what-is-hoisting-in-javascript)|
+| 03.|[What are closures?](#what-are-closures)|
+| 05.|[What is an event flow?](#what-is-an-event-flow)|
+| 06.|[What is event bubbling?](#what-is-event-bubbling)|
 | 07.|What is event capturing?|
 | 08.|What is the difference between == and === operators?|
 | 09.|What is a callback function?|
@@ -168,6 +168,12 @@ Example: If you click on EM, the handler on DIV runs.
 </body>
 
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
+### What is event capturing?
+Event capturing is a type of event propagation where the event is first captured by the outermost element and then successively triggers on the descendants (children) of the target element in the same nesting hierarchy till it reaches the inner DOM element.
 <div align="right">
     <b><a href="#js-interview-questions">↥ back to top</a></b>
 </div>
