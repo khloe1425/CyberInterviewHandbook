@@ -7,5 +7,5 @@
 <hr/>
 
 ## Table of Contents
-* [JS Interview Questions](#js-interview-questions)
-* [ES6 Interview Questions](#es6-interview-questions)
+* [JS Interview Questions](./js.md)
+* [ES6 Interview Questions](./es6.md)
