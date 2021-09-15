@@ -14,7 +14,7 @@
 
 |No| Questions                                                                         |
 |-----|-----------------------------------------------------------------------------------|
-| 01.|What is difference between document.getElementById() and document.querySelector()?|
+| 01.|[What is difference between document.getElementById() and document.querySelector()?](#what-is-difference-between-documentgetelementbyid-and-documentqueryselector)|
 | 02.|What is Hoisting in JavaScript?|
 | 03.|What are closures?|
 | 05.|What is an event flow?|
@@ -67,6 +67,11 @@ Returns a NodeList containing all matching Element nodes within the node's subtr
 element = document.querySelectorAll(selectors);
 ```
 Note: querySelector() is more useful when we want to use more complex selectors.
+
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is Hoisting in JavaScript?
 
 Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
@@ -108,6 +113,10 @@ Output: ReferenceError: b is not defined
 */
 
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What are closures?
 A closure is the combination of a function and the lexical environment within which that function was declared. i.e, It is an inner function that has access to the outer or enclosing function’s variables. The closure has three scope chains
 * Own scope where variables defined between its curly brackets
@@ -126,6 +135,9 @@ myFunction('Hello Mr.'); // output: Hello Mr.John
 
 ```
 As per the above code, the inner function greetingInfo() has access to the variables in the outer function Welcome() even after outer function has returned.
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
 
 ### What is an event flow?
 Event flow is the order in which event is received on the web page. When you click an element that is nested in various other elements, before your click actually reaches its destination, or target element, it must trigger the click event each of its parent elements first, starting at the top with the global window object.
@@ -134,6 +146,11 @@ There are two ways of event flow
 
 * Top to Bottom(Event Capturing)
 * Bottom to Top (Event Bubbling)
+
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is event bubbling?
 Event bubbling is a type of event propagation where the event first triggers on the innermost target element, and then successively triggers on the ancestors (parents) of the target element in the same nesting hierarchy till it reaches the outermost DOM element.
 
@@ -151,6 +168,10 @@ Example: If you click on EM, the handler on DIV runs.
 </body>
 
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is the difference between == and === operators?
 JavaScript provides both strict(===, !==) and type-converting(==, !=) equality comparison. The strict operators takes type of variable in consideration, while non-strict operators make type correction/conversion based upon values of variables.
 Examples
@@ -158,6 +179,10 @@ Examples
 1 == "1"     // true
 1 === "1"    // false
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is a callback function?
 A callback function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an action.
 ```javascript
@@ -173,6 +198,11 @@ function outerFunction(callback) {
 outerFunction(callbackFunction);
 
 ```
+
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is a callback hell?
 Callback Hell is an anti-pattern with multiple nested callbacks which makes code hard to read and debug when dealing with asynchronous logic. The callback hell looks like below,
 ```javascript
@@ -187,6 +217,10 @@ async1(function() {
 });
 
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is a strict mode in javascript?
 Strict Mode is a new feature in ECMAScript 5 that allows to place a program, or a function, in a strict operating context. This way it prevents certain actions from being taken and throws more exceptions. The literal expression 'use strict'; instructs the browser to use the javascript code in the Strict mode.
 
@@ -209,6 +243,10 @@ function myFunction() {
 }
 
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is typeof operator?
 You can use the JavaScript typeof operator to find the type of a JavaScript variable. It returns the type of a variable or an expression.
 ```javascript
@@ -216,6 +254,10 @@ typeof "John Abraham"     // Returns "string"
 typeof (1 + 2)        // Returns "number"
 
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is the difference between null and undefined?
 Below are the main differences between null and undefined,
 
@@ -255,6 +297,10 @@ console.log(input.getAttribute('value')); // Good morning
 console.log(input.value); // Good evening
 
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is the use of preventDefault method?
 The preventDefault() method cancels the event if it is cancelable, meaning that the default action or behaviour that belongs to the event will not occur. For example, prevent form submission when clicking on submit button and prevent opening the page URL when clicking on hyper link are some common usecases.
 ```javascript
@@ -264,6 +310,10 @@ document.getElementById("link").addEventListener("click", function(event) {
 
 ```
 Note: Remember that not all events are cancelable.
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is the purpose JSON stringify?
 When sending data to a web server, the data has to be in a string format. You can achieve this by converting JSON object into a string using stringify() method.
 ```javascript
@@ -272,6 +322,10 @@ var userString = JSON.stringify(user);
 console.log(userString); //"{"name":"John","age":31}"
 
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### How do you parse JSON string?
 When receiving the data from a web server, the data is always in a string format. But you can convert this string value to javascript object using parse() method.
 ```javascript
@@ -279,6 +333,10 @@ var userString = '{"name":"John","age":31}';
 var userJSON = JSON.parse(userString);
 console.log(userJSON);// {name: "John", age: 31}
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### How do you check whether a string contains a substring?
 There are 3 possible ways to check whether a string contains a substring or not,
 
@@ -300,6 +358,10 @@ var mainString = "hello", regex = "/hell/";
 regex.test(mainString)
 
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What are the benefits of keeping declarations at the top?
 It is recommended to keep all declarations at the top of each script or function. The benefits of doing this are,
 
@@ -307,6 +369,10 @@ It is recommended to keep all declarations at the top of each script or function
 2. It provides a single place to look for local variables
 3. Easy to avoid unwanted global variables
 4. It reduces the possibility of unwanted re-declarations
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is a RegExp object?
 RegExp object is a regular expression object with predefined properties and methods.
 ```javascript
@@ -315,6 +381,10 @@ console.log(regexp);
 // expected output: /\w+/
 
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is an anonymous function?
 An anonymous function is a function without a name! Anonymous functions are commonly assigned to a variable name or used as a callback function. The syntax would be as below,
 ```javascript
@@ -338,6 +408,10 @@ var z = x(5, 10);
 console.log(z); // 50
 
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### How do you sort elements in an array?
 The sort() method is used to sort the elements of an array in place and returns the sorted array. The example usage would be as below,
 ```javascript
@@ -346,6 +420,10 @@ months.sort();
 console.log(months); //  ["Aug", "Jan", "June", "Sep"]
 
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### How do you find min and max value in an array?
 You can use Math.min and Math.max methods on array variable to find the minimum and maximum elements with in an array. Let us create two functions to find the min and max value with in an array,
 ```javascript
@@ -361,16 +439,32 @@ console.log(findMin(marks));
 console.log(findMax(marks));
 
 ```
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### How do you find min and max values without Math functions?
 You can write functions which loops through an array comparing each value with the lowest value or highest value to find the min and max values.
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### Explain the difference between synchronous and asynchronous functions?
 Synchronous functions are blocking while asynchronous functions are not. In synchronous functions, statements complete before the next statement is run. In this case, the program is evaluated exactly in order of the statements and execution of the program is paused if one of the statements take a very long time.
 
 Asynchronous functions usually accept a callback as a parameter and execution continue on the next line immediately after the asynchronous function is invoked. The callback is only invoked when the asynchronous operation is complete and the call stack is empty. Heavy duty operations such as loading data from a web server or querying a database should be done asynchronously so that the main thread can continue executing other operations instead of blocking until that long operation to complete (in the case of browsers, the UI will freeze).
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is event loop? What is the difference between call stack and task queue?
 The event loop is a single-threaded loop that monitors the call stack and checks if there is any work to be done in the task queue. If the call stack is empty and there are callback functions in the task queue, a function is dequeued and pushed onto the call stack to be executed.
 
 If you haven't already checked out Philip Robert's [talk on the Event Loop](https://2014.jsconf.eu/speakers/philip-roberts-what-the-heck-is-the-event-loop-anyway.html), you should. It is one of the most viewed videos on JavaScript.
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is the difference between slice and splice?
 Some of the major difference in a tabular form
 
@@ -379,8 +473,8 @@ Slice| Splice |
  Doesn't modify the original array(immutable) | Modifies the original array(mutable) | 
  Returns the subset of original array | Returns the deleted elements as array | 
  Used to pick the elements from array | Used to insert or delete elements to/from array | 
- <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
 </div>
 
 ## ES6 Interview Questions
@@ -474,6 +568,9 @@ var sum = arr.reduce(function(sum, elem) {
 console.log(sum); // Output: 60
 
 ```
+<div align="right">
+    <b><a href="#es6-interview-questions">↥ back to top</a></b>
+</div>
 
 ### How do you clone an object in JavaScript?
 Using the object spread operator ..., the object own enumerable properties can be copied into the new object. This creates a shallow clone of the object.
@@ -482,6 +579,9 @@ const obj = { a: 1, b: 2 }
 const shallowClone = { ...obj }
 
 ```
+<div align="right">
+    <b><a href="#es6-interview-questions">↥ back to top</a></b>
+</div>
 
 ### What is a promise?
 A promise is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved(for example, network error). It will be in one of the 3 possible states: fulfilled, rejected, or pending. 
@@ -498,6 +598,10 @@ Promises have three states:
 1. **Pending**: This is an initial state of the Promise before an operation begins
 2. **Fulfilled**: This state indicates that specified operation was completed.
 3. **Rejected**: This state indicates that the operation did not complete. In this case an error value will be thrown.
+
+<div align="right">
+    <b><a href="#es6-interview-questions">↥ back to top</a></b>
+</div>
 
 ### What are the differences between variables created using let, var or const?
 Variables declared using the var keyword are scoped to the function in which they are created, or if created outside of any function, to the global object. let and const are block scoped, meaning they are only accessible within the nearest set of curly braces (function, if-else block, or for-loop).
@@ -567,6 +671,10 @@ const baz = 'baz';
 baz = 'qux';
 
 ```
+<div align="right">
+    <b><a href="#es6-interview-questions">↥ back to top</a></b>
+</div>
+
 ### Can you give an example for destructuring an object or an array?
 Destructuring is an expression available in ES6 which enables a succinct and convenient way to extract values of Objects or Arrays and place them into distinct variables.
 **Array Destructuring**
@@ -600,6 +708,9 @@ console.log(p); // 42
 console.log(q); // true
 
 ```
+<div align="right">
+    <b><a href="#es6-interview-questions">↥ back to top</a></b>
+</div>
 
 ### How does await and async works in es6?
 **Promises**
@@ -661,6 +772,10 @@ const githubRequest = async(loginName) => {
 githubRequest('pradeepkumar2');
 
 ```
+<div align="right">
+    <b><a href="#es6-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What are the benefits of using arrow function over es5 function?
 **Arrow functions**
 Arrows is a new syntax for functions, which brings several benefits:
@@ -683,6 +798,10 @@ var a4 = (x, y) => 1;
 var a5 = x => { return 1; };
 
 ```
+<div align="right">
+    <b><a href="#es6-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What are the differences between ES6 class and ES5 function constructors?
 ```javascript
 // ES5 Function Constructor
@@ -724,6 +843,10 @@ class Student extends Person {
 
 ```
 It's much more verbose to use inheritance in ES5 and the ES6 version is easier to understand and remember.
+<div align="right">
+    <b><a href="#es6-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is the difference between for..in and for..of?
 * for in: loops over enumerable property names of an object.
 * for of: (new in ES6) does use an object-specific iterator and loops over the values generated by that.
@@ -743,6 +866,10 @@ for (let i of list) {
 }
 
 ```
+<div align="right">
+    <b><a href="#es6-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is the Temporal Dead Zone in ES6?
 In ES6, let bindings are not subject to Variable Hoisting, which means that let declarations do not move to the top of the current execution context. Referencing the variable in the block before the initialization results in a ReferenceError (contrary to a variable declared with var, which will just have the undefined value). The variable is in a “temporal dead zone” from the start of the block until the initialization is processed.
 ```javascript
@@ -752,6 +879,10 @@ var aVar = 1;
 let aLet = 2;
 
 ```
+<div align="right">
+    <b><a href="#es6-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is modules in ES6?
 To make objects, functions, classes or variables available to the outside world it’s as simple as exporting them and then importing them where needed in other files.
 
@@ -799,6 +930,10 @@ export class Alligator {
 }
 
 ```
+<div align="right">
+    <b><a href="#es6-interview-questions">↥ back to top</a></b>
+</div>
+
 ### Can you describe the main difference between a .forEach loop and a .map() loop and why you would pick one versus the other?
 To understand the differences between the two, Let us look at what each function does.
 
@@ -830,6 +965,10 @@ const doubled = a.map(num => {
 
 ```
 The main difference between **.forEach** and **.map()** is that **.map()** returns a new array. If you need the result, but do not wish to mutate the original array, **.map()** is the clear choice. If you simply need to iterate over an array, **forEach** is a fine choice.
+<div align="right">
+    <b><a href="#es6-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What happens if you do not use rest parameter as a last argument?
 The rest parameter should be the last argument, as its job is to collect all the remaining arguments into an array. For example, if you define a function like below it does not make any sense and will throw an error.
 
@@ -839,3 +978,6 @@ function someFunc(a,…b,c) {
   return;
 }
 ```
+<div align="right">
+    <b><a href="#es6-interview-questions">↥ back to top</a></b>
+</div>
