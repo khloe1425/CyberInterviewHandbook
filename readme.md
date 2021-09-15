@@ -274,6 +274,10 @@ Type of null is object | Type of undefined is undefined |
  The null value is a primitive value that represents the null, empty, or non-existent reference. | The undefined value is a primitive value used when a variable has not been assigned a value. |
 Indicates the absence of a value for a variable| Indicates absence of variable itself |
 Converted to zero (0) while performing primitive operations| Converted to NaN while performing primitive operations|
+<div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is the difference between window and document?
 The window is the first thing that gets loaded into the browser. This window object has the majority of the properties like length, innerWidth, innerHeight, name, if it has been closed, its parents, and more.
 
@@ -285,6 +289,11 @@ Window | Document
  It is the root level element in any web page |  It is the root level element in any web page |It is the direct child of the window object. This is also known as Document Object Model(DOM)  
  By default window object is available implicitly in the page | You can access it via window.document or document. 
  It has methods like alert(), confirm() and properties like document, location | It provides methods like getElementById(), getElementByTagName(), createElement() etc
+
+ <div align="right">
+    <b><a href="#js-interview-questions">↥ back to top</a></b>
+</div>
+
 ### What is the difference between an attribute and a property?
 Attributes are defined on the HTML markup whereas properties are defined on the DOM. For example, the below HTML element has 2 attributes type and value,
 ```javascript
