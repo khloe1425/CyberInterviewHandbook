@@ -489,18 +489,18 @@ Slice| Splice |
 |-----|-----------------------------------------------------------------------------------|
 | 01.|[When to use reduce(), map(), foreach() and filter() in JavaScript?](#when-to-use-reduce-map-foreach-and-filter-in-javascript)|
 | 02.|[How do you clone an object in JavaScript?](#how-do-you-clone-an-object-in-javascript)|
-| 05.|[What is a promise?](#what-is-a-promise)|
-| 06.|[What are the differences between variables created using let, var or const?](#what-are-the-differences-between-variables-created-using-let-var-or-const)|
-| 07.|[Can you give an example for destructuring an object or an array?](#can-you-give-an-example-for-destructuring-an-object-or-an-array)|
-| 08.|[How does await and async works in es6?](#how-does-await-and-async-works-in-es6)|
-| 09.|[What are the benefits of using arrow function over es5 function?](#what-are-the-benefits-of-using-arrow-function-over-es5-function)|
-| 10.|[What are the differences between ES6 class and ES5 function constructors?](#what-are-the-differences-between-es6-class-and-es5-function-constructors)|
-| 11.|What are the benefits of using spread syntax and how is it different from rest syntax?|
-| 12.|[What is the difference between for..in and for..of?](#what-is-the-difference-between-forin-and-forof)|
-| 13.|What is the Temporal Dead Zone in ES6?|
-| 14.|What is modules in ES6?|
-| 15.|Can you describe the main difference between a .forEach loop and a .map() loop and why you would pick one versus the other?|
-| 16.|What happens if you do not use rest parameter as a last argument?| 
+| 03.|[What is a promise?](#what-is-a-promise)|
+| 04.|[What are the differences between variables created using let, var or const?](#what-are-the-differences-between-variables-created-using-let-var-or-const)|
+| 05.|[Can you give an example for destructuring an object or an array?](#can-you-give-an-example-for-destructuring-an-object-or-an-array)|
+| 06.|[How does await and async works in es6?](#how-does-await-and-async-works-in-es6)|
+| 07.|[What are the benefits of using arrow function over es5 function?](#what-are-the-benefits-of-using-arrow-function-over-es5-function)|
+| 08.|[What are the differences between ES6 class and ES5 function constructors?](#what-are-the-differences-between-es6-class-and-es5-function-constructors)|
+| 09.|[What are the benefits of using spread syntax and how is it different from rest syntax?](#what-are-the-benefits-of-using-spread-syntax-and-how-is-it-different-from-rest-syntax)|
+| 10.|[What is the difference between for..in and for..of?](#what-is-the-difference-between-forin-and-forof)|
+| 11.|[What is the Temporal Dead Zone in ES6?](#what-is-the-temporal-dead-zone-in-es6)|
+| 12.|[What is modules in ES6?](#what-is-modules-in-es6)|
+| 13.|[Can you describe the main difference between a .forEach loop and a .map() loop and why you would pick one versus the other?](#can-you-describe-the-main-difference-between-a-foreach-loop-and-a-map-loop-and-why-you-would-pick-one-versus-the-other)|
+| 14.|[What happens if you do not use rest parameter as a last argument?](#what-happens-if-you-do-not-use-rest-parameter-as-a-last-argument)| 
 
 ### When to use reduce(), map(), foreach() and filter() in JavaScript?
 
